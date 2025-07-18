@@ -4,7 +4,7 @@ Model factory for creating and managing models
 
 from typing import Dict, Optional
 
-from ..config.settings import ModelConfig
+from config.settings import ModelConfig
 from .base_model import BaseModel, ModelLoadError
 from .resnet_model import ResNet18Model, ResNet50Model
 

@@ -3,31 +3,14 @@ Image processing utilities for Adversarial Comparator
 """
 
 import io
-from typing import Optional, Tuple
+from typing import Tuple, Optional, Union
 
 import numpy as np
 import torch
-from PIL import Image
+import torchvision.transforms as transforms
+from PIL import Image, UnidentifiedImageError
 
-# Try relative import first, fallback to absolute
-try:
-    from ..config.settings import UIConfig
-except ImportError:
-    try:
-        from config.settings import UIConfig
-    except ImportError:
-        # For testing purposes, create a minimal config
-        from dataclasses import dataclass
-        from typing import List
-
-        @dataclass
-        class UIConfig:
-            max_image_size: int = 50 * 1024 * 1024
-            supported_formats: List[str] = None
-
-            def __post_init__(self):
-                if self.supported_formats is None:
-                    self.supported_formats = [".jpg", ".jpeg", ".png", ".webp"]
+from config.settings import UIConfig
 
 
 class ImageProcessor:

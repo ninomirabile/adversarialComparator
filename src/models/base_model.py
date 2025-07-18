@@ -1,16 +1,13 @@
 """
-Base model class for Adversarial Comparator
+Base model class for all ML models
 """
-
-from abc import ABC, abstractmethod
-from typing import List, Optional, Tuple
 
 import torch
 import torch.nn as nn
-import torchvision.transforms as transforms
 from PIL import Image
+from typing import List, Dict, Any, Tuple
 
-from ..config.settings import ModelConfig
+from config.settings import ModelConfig
 
 
 class BaseModel(ABC):
