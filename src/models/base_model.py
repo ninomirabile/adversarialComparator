@@ -2,10 +2,13 @@
 Base model class for all ML models
 """
 
+from abc import ABC, abstractmethod
+from typing import List, Dict, Any, Tuple, Optional
+
 import torch
 import torch.nn as nn
+import torchvision.transforms as transforms
 from PIL import Image
-from typing import List, Dict, Any, Tuple
 
 from config.settings import ModelConfig
 
