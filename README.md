@@ -3,7 +3,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red.svg)](https://streamlit.io/)
-[![CI/CD](https://github.com/ninomirabile/adversarialComparator/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/ninomirabile/adversarialComparator/actions)
+[![CI/CD Pipeline](https://github.com/ninomirabile/adversarialComparator/workflows/CI%2FCD%20Pipeline%20-%20Adversarial%20Comparator/badge.svg)](https://github.com/ninomirabile/adversarialComparator/actions)
 [![PR Check](https://github.com/ninomirabile/adversarialComparator/workflows/Pull%20Request%20Check/badge.svg)](https://github.com/ninomirabile/adversarialComparator/actions)
 [![Code Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen.svg)](https://github.com/ninomirabile/adversarialComparator)
 [![Code Quality](https://img.shields.io/badge/code%20quality-A-green.svg)](https://github.com/ninomirabile/adversarialComparator)
