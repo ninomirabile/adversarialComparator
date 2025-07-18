@@ -23,7 +23,7 @@ plotly>=5.15.0
 matplotlib>=3.7.0
 
 # Utilities
-requests>=2.27.0,<3.0.0
+requests>=2.25.0,<3.0.0
 tqdm>=4.65.0
 
 # Development Dependencies (Optional)
