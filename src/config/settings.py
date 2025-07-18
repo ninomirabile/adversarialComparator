@@ -126,8 +126,6 @@ config = AppConfig()
 # Environment-specific overrides
 def load_environment_config():
     """Load environment-specific configuration overrides."""
-    global config
-
     # Check for environment variables
     if os.getenv("ADVERSARIAL_COMPARATOR_DEVICE"):
         config.model.device = os.getenv("ADVERSARIAL_COMPARATOR_DEVICE")
