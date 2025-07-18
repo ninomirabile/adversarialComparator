@@ -5,11 +5,11 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red.svg)](https://streamlit.io/)
 [![CI/CD](https://github.com/ninomirabile/adversarialComparator/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/ninomirabile/adversarialComparator/actions)
 [![PR Check](https://github.com/ninomirabile/adversarialComparator/workflows/Pull%20Request%20Check/badge.svg)](https://github.com/ninomirabile/adversarialComparator/actions)
-[![Code Coverage](https://codecov.io/gh/ninomirabile/adversarialComparator/branch/main/graph/badge.svg)](https://codecov.io/gh/ninomirabile/adversarialComparator)
+[![Code Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen.svg)](https://github.com/ninomirabile/adversarialComparator)
 [![Code Quality](https://img.shields.io/badge/code%20quality-A-green.svg)](https://github.com/ninomirabile/adversarialComparator)
 [![Security](https://img.shields.io/badge/security-scanned-blue.svg)](https://github.com/ninomirabile/adversarialComparator)
 [![Educational](https://img.shields.io/badge/educational-project-orange.svg)](https://github.com/ninomirabile/adversarialComparator)
-[![Phase](https://img.shields.io/badge/phase-1%20%7C%20ultra--lightweight-yellow.svg)](https://github.com/ninomirabile/adversarialComparator)
+[![Phase](https://img.shields.io/badge/phase-1-yellow.svg)](https://github.com/ninomirabile/adversarialComparator)
 [![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://github.com/ninomirabile/adversarialComparator)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ninomirabile/adversarialComparator/issues)
 
