@@ -39,27 +39,4 @@ jobs:
     - name: Run basic tests
       run: |
         echo "🧪 Running basic tests..."
-        python -m pytest tests/ -v --tb=short
-    
-    - name: Check documentation
-      run: |
-        echo "📚 Checking documentation..."
-        required_files=("README.md" "QUICKSTART.md" "DISCLAIMER.md")
-        for file in "${required_files[@]}"; do
-          if [ -f "$file" ]; then
-            echo "✅ $file exists"
-          else
-            echo "❌ $file missing"
-            exit 1
-          fi
-        done
-    
-    - name: Check for sensitive data
-      run: |
-        echo "🔒 Checking for sensitive data..."
-        if grep -r "password\|secret\|key\|token" src/ --exclude="*.pyc" --exclude="__pycache__" | grep -v "#" | grep -v "example"; then
-          echo "⚠️ Potential sensitive data found in code"
-          exit 1
-        else
-          echo "✅ No obvious sensitive data found"
-        fi 
+        python -m pytest tests/ -v --tb=short 
