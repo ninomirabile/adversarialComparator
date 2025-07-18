@@ -152,7 +152,7 @@ install_dependencies() {
 run_tests() {
     print_status "Running basic tests..."
     
-    if python3 test_simple.py; then
+    if python3 tests/test_simple.py; then
         print_success "All tests passed"
         return 0
     else

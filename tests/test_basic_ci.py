@@ -80,7 +80,6 @@ def test_ci_files():
     ci_files = [
         ".github/workflows/ci-cd.yml",
         ".github/workflows/pr-check.yml",
-        ".github/dependabot.yml",
         ".flake8",
         "pyproject.toml",
         ".markdownlint.json",

@@ -248,7 +248,7 @@ show_actions() {
     echo "  🚀 Start application:   ./start.sh"
     echo "  🛑 Stop application:    ./stop.sh"
     echo "  🔍 Check status:        ./status.sh"
-    echo "  🧪 Run tests:           python3 test_simple.py"
+    echo "  🧪 Run tests:           python3 tests/test_simple.py"
     echo "  📚 View docs:           cat QUICKSTART.md"
 }
 

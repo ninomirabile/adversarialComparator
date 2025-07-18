@@ -7,7 +7,7 @@ import sys
 import os
 
 # Add src to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 def test_basic_functionality():
     """Test basic functionality without relative imports."""
@@ -19,15 +19,15 @@ def test_basic_functionality():
         print("Testing imports...")
         
         # Import config
-        from src.config.settings import config
+        from config.settings import config
         print("✓ Config loaded successfully")
         print(f"  - Phase: {config.phase} - {config.phase_name}")
         print(f"  - Model: {config.model.model_type}")
         print(f"  - Device: {config.model.device}")
         
         # Import factories
-        from src.models.model_factory import ModelFactory
-        from src.attacks.attack_factory import AttackFactory
+        from models.model_factory import ModelFactory
+        from attacks.attack_factory import AttackFactory
         print("✓ Factories imported successfully")
         
         # Test model factory

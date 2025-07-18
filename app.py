@@ -12,6 +12,15 @@ from typing import Optional, Tuple
 import logging
 import sys
 import traceback
+import os
+
+# Add src to Python path
+try:
+    current_dir = os.path.dirname(__file__)
+except NameError:
+    # __file__ is not defined when using exec()
+    current_dir = os.getcwd()
+sys.path.insert(0, os.path.join(current_dir, 'src'))
 
 # Configure logging
 logging.basicConfig(
@@ -25,10 +34,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Import our modules
-from src.config.settings import config
-from src.models.model_factory import ModelFactory
-from src.attacks.attack_factory import AttackFactory
-from src.utils.image_processing import ImageProcessor, ImageValidator
+from config.settings import config
+from models.model_factory import ModelFactory
+from attacks.attack_factory import AttackFactory
+from utils.image_processing import ImageProcessor, ImageValidator
 
 
 class AdversarialComparatorApp:
