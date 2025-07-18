@@ -10,6 +10,7 @@ import torchvision.transforms as transforms
 from PIL import Image
 
 from config.settings import ModelConfig
+
 from .base_model import BaseModel, ModelLoadError
 
 

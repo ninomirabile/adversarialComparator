@@ -3,7 +3,7 @@ Image processing utilities for Adversarial Comparator
 """
 
 import io
-from typing import Tuple, Optional, Union
+from typing import Optional, Tuple, Union
 
 import numpy as np
 import torch

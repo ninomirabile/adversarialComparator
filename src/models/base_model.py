@@ -3,7 +3,7 @@ Base model class for all ML models
 """
 
 from abc import ABC, abstractmethod
-from typing import List, Dict, Any, Tuple, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import torch
 import torch.nn as nn
